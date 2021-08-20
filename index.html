@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/images/favicon-32x32.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet"> 
+    <title>Ping Coming Soon Page</title>
+    <link rel="stylesheet" href="/style.css">
+   
+  </head>
+
+  <body class="font-sans flex flex-col items-center p-2">
+    <main class="px-8 py-12 mx-auto flex flex-col items-center justify-center">
+      <div class="w-16 md:w-24 lg:w-16">
+          <img class="object-contain" src="/images/logo.svg" alt="page logo" />
+      </div>
+
+      <div class="flex flex-col mt-6 mb-6 text-center md:mt-10 md:mb-10 lg:mb-6 ">
+          <h1 class="text-2xl text-gray mb-3 font-light md:text-3xl lg:text-4xl">We are launching <span class=" text-blue-dark font-bold">soon!</span> </h1>
+          <p class="text-sm font-light md:text-base">Subscribe and get notified</p>
+      </div>
+
+      <form action="#" class="flex flex-col w-80 text-sm mb-8 md:w-1/2 lg:w-auto lg:gap-2  lg:flex-row lg:items-center lg:justify-between lg:mb-4">
+          <input class=" border border-blue-pale rounded-3xl px-8 py-3 mb-3 placeholder-blue-pale lg:mb-0 lg:w-80" name="email" type="email" placeholder="Your email address..." />
+          <label for="email" class="text-red italic text-center md:text-center lg:hidden"></label>
+          <button class="border border-blue bg-blue text-white px-8 py-3 rounded-3xl lg:w-40 hover:opacity-80" id="notify">Notify Me</button>
+      </form>
+
+      <label for="" class="text-red italic  text-left text-sm mr-64 hidden lg:block" id="lgLabel"></label>
+
+      <div class="mt-12 mb-24 lg:w-2/5 lg:mt-6 lg:mb-10">
+          <img class=" object-contain" src="/images/illustration-dashboard.png" alt="image illustration" />
+      </div>
+
+      <div class="flex gap-8 mb-12 lg:mb-6">
+          <div class="border rounded-full border-blue-pale p-2 h-10 w-10 lg:h-8 lg:w-8 hover:bg-blue-pale">
+              <img src="/images/facebook.svg" alt="facebook icon" />
+          </div>
+
+          <div class="border rounded-full border-blue-pale p-2 h-10 w-10 lg:h-8 lg:w-8 hover:bg-blue-pale">
+              <img src="/images/twitter.svg" alt="twitter icon"/>
+          </div>
+
+          <div class="border rounded-full border-blue-pale p-2 h-10 w-10 lg:h-8 lg:w-8 hover:bg-blue-pale">
+              <img src="/images/instagram.svg" alt="instagram icon" />
+          </div>
+      </div>
+      <div class="text-blue-pale text-xs md:text-sm">
+      <p>  &copy; Copyright Ping. All rights reserved.</p>
+      </div>
+  </main>
+
+  <footer>
+  <p class="text-xs text-gray">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 
+    Coded by <a href="#">Gerri Ezeocha</a>.
+  </p>
+  </footer>
+
+  <script src="script.js"></script>
+  </body>
+</html>
